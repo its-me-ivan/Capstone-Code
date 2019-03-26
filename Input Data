@@ -1,0 +1,60 @@
+------------------------------------------------------------------------
+dinput
+------------------------------------------------------------------------
+device /dev/input/event3, name "8Bitdo SN30 Pro", phys "b8:27:eb:6e:ee:21"
+{('EV_MSC', 4L): [('MSC_SCAN', 4L)], 
+ ('EV_KEY', 1L): [(['BTN_A', 'BTN_GAMEPAD', 'BTN_SOUTH'], 304L), (['BTN_B', 'BTN_EAST'], 305L), 
+				  ('BTN_C', 306L), (['BTN_NORTH', 'BTN_X'], 307L), (['BTN_WEST', 'BTN_Y'], 308L), ('BTN_Z', 309L), 
+				  ('BTN_TL', 310L), ('BTN_TR', 311L), ('BTN_TL2', 312L), ('BTN_TR2', 313L), 
+				  ('BTN_SELECT', 314L), ('BTN_START', 315L), ('BTN_MODE', 316L), 
+				  ('BTN_THUMBL', 317L), ('BTN_THUMBR', 318L), 
+				  ('?', 319L)], 
+ ('EV_ABS', 3L): [(('ABS_X', 0L), AbsInfo(value=128, min=0, max=255, fuzz=0, flat=15, resolution=0)), 
+				  (('ABS_Y', 1L), AbsInfo(value=128, min=0, max=255, fuzz=0, flat=15, resolution=0)), 
+				  (('ABS_Z', 2L), AbsInfo(value=128, min=0, max=255, fuzz=0, flat=15, resolution=0)), 
+				  (('ABS_RZ', 5L), AbsInfo(value=128, min=0, max=255, fuzz=0, flat=15, resolution=46)), 
+				  (('ABS_GAS', 9L), AbsInfo(value=0, min=0, max=255, fuzz=0, flat=15, resolution=0)), 
+				  (('ABS_BRAKE', 10L), AbsInfo(value=0, min=0, max=255, fuzz=0, flat=15, resolution=0)), 
+				  (('ABS_HAT0X', 16L), AbsInfo(value=0, min=-1, max=1, fuzz=0, flat=0, resolution=0)), 
+				  (('ABS_HAT0Y', 17L), AbsInfo(value=0, min=-1, max=1, fuzz=0, flat=0, resolution=0))], 
+ ('EV_SYN', 0L): [('SYN_REPORT', 0L), ('SYN_CONFIG', 1L), ('SYN_DROPPED', 3L), ('?', 4L)]}
+------------------------------------------------------------------------
+xinput
+------------------------------------------------------------------------
+device /dev/input/event3, name "8Bitdo SN30 Pro", phys "b8:27:eb:6e:ee:21"
+{('EV_MSC', 4L): [('MSC_SCAN', 4L)], 
+ ('EV_KEY', 1L): [('KEY_MENU', 139L), (['BTN_A', 'BTN_GAMEPAD', 'BTN_SOUTH'], 304L), (['BTN_B', 'BTN_EAST'], 305L), 
+				  ('BTN_C', 306L), (['BTN_NORTH', 'BTN_X'], 307L), (['BTN_WEST', 'BTN_Y'], 308L), ('BTN_Z', 309L), 
+				  ('BTN_TL', 310L), ('BTN_TR', 311L), ('BTN_TL2', 312L), ('BTN_TR2', 313L)], 
+ ('EV_ABS', 3L): [(('ABS_X', 0L), AbsInfo(value=0, min=0, max=65535, fuzz=255, flat=4095, resolution=0)), 
+				  (('ABS_Y', 1L), AbsInfo(value=0, min=0, max=65535, fuzz=255, flat=4095, resolution=0)), 
+				  (('ABS_Z', 2L), AbsInfo(value=0, min=0, max=1023, fuzz=3, flat=63, resolution=0)), 
+				  (('ABS_RX', 3L), AbsInfo(value=0, min=0, max=65535, fuzz=255, flat=4095, resolution=0)), 
+				  (('ABS_RY', 4L), AbsInfo(value=0, min=0, max=65535, fuzz=255, flat=4095, resolution=0)), 
+				  (('ABS_RZ', 5L), AbsInfo(value=0, min=0, max=1023, fuzz=3, flat=63, resolution=0)), 
+				  (('ABS_HAT0X', 16L), AbsInfo(value=0, min=-1, max=1, fuzz=0, flat=0, resolution=0)), 
+				  (('ABS_HAT0Y', 17L), AbsInfo(value=0, min=-1, max=1, fuzz=0, flat=0, resolution=0))], 
+ ('EV_SYN', 0L): [('SYN_REPORT', 0L), ('SYN_CONFIG', 1L), ('SYN_DROPPED', 3L), ('?', 4L)]}
+
+------------------------------------------------------------------------
+switch
+------------------------------------------------------------------------
+device /dev/input/event3, name "Pro Controller", phys "b8:27:eb:6e:ee:21"
+{('EV_MSC', 4L): [('MSC_SCAN', 4L)], 
+ ('EV_KEY', 1L): [(['BTN_A', 'BTN_GAMEPAD', 'BTN_SOUTH'], 304L), (['BTN_B', 'BTN_EAST'], 305L), 
+				  ('BTN_C', 306L), (['BTN_NORTH', 'BTN_X'], 307L), (['BTN_WEST', 'BTN_Y'], 308L), ('BTN_Z', 309L), 
+				  ('BTN_TL', 310L), ('BTN_TR', 311L), ('BTN_TL2', 312L), ('BTN_TR2', 313L), 
+				  ('BTN_SELECT', 314L), ('BTN_START', 315L), ('BTN_MODE', 316L), 
+				  ('BTN_THUMBL', 317L), ('BTN_THUMBR', 318L), 
+				  ('?', 319L)], 
+ ('EV_ABS', 3L): [(('ABS_X', 0L), AbsInfo(value=32768, min=0, max=65535, fuzz=255, flat=4095, resolution=0)), 
+				  (('ABS_Y', 1L), AbsInfo(value=32768, min=0, max=65535, fuzz=255, flat=4095, resolution=0)), 
+				  (('ABS_RX', 3L), AbsInfo(value=32768, min=0, max=65535, fuzz=255, flat=4095, resolution=0)), 
+				  (('ABS_RY', 4L), AbsInfo(value=32768, min=0, max=65535, fuzz=255, flat=4095, resolution=0)), 
+				  (('ABS_HAT0X', 16L), AbsInfo(value=0, min=-1, max=1, fuzz=0, flat=0, resolution=0)), 
+				  (('ABS_HAT0Y', 17L), AbsInfo(value=0, min=-1, max=1, fuzz=0, flat=0, resolution=0))], 
+ ('EV_SYN', 0L): [('SYN_REPORT', 0L), ('SYN_CONFIG', 1L), ('SYN_DROPPED', 3L), ('?', 4L), ('?', 20L)]}
+
+------------------------------------------------------------------------
+MacOS
+------------------------------------------------------------------------
